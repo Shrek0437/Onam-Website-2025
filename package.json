@@ -1,0 +1,29 @@
+{
+  "name": "onam-website-2025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrek0437/Onam-Website-2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shrek0437/Onam-Website-2025/issues"
+  },
+  "homepage": "https://github.com/Shrek0437/Onam-Website-2025#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "vite": "^7.0.6"
+  }
+}
