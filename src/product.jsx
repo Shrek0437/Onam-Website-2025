@@ -1,5 +1,5 @@
 // products.js
-
+import React from "react";
 const products = [
   {
     id: 1,

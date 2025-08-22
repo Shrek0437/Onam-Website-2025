@@ -1,4 +1,5 @@
 // src/components/ProductCard.jsx
+import React from "react";
 import { useCart } from "../context/CartContext";
 
 export default function ProductCard({ product }) {
