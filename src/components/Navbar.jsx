@@ -1,18 +1,14 @@
-// src/components/Navbar.jsx
 import { Link } from "react-router-dom";
-import { useCart } from "../context/CartContext";
 
 export default function Navbar() {
-  const { cartItems } = useCart();
-
   return (
-    <nav className="bg-yellow-100 shadow p-4 flex justify-between items-center">
-      <Link to="/" className="text-xl font-bold text-green-700">OnamBazaar 🎉</Link>
-      <div className="flex gap-4">
+    <nav className="flex justify-between items-center bg-green-600 text-white p-4">
+      <h1 className="text-xl font-bold">🌼 Onam Shop</h1>
+      <div className="space-x-4">
+        <Link to="/" className="hover:underline">Home</Link>
         <Link to="/shop" className="hover:underline">Shop</Link>
-        <Link to="/cart" className="hover:underline">
-          Cart ({cartItems.reduce((sum, item) => sum + item.quantity, 0)})
-        </Link>
+        <Link to="/cart" className="hover:underline">Cart</Link>
+        <Link to="/checkout" className="hover:underline">Checkout</Link>
       </div>
     </nav>
   );
