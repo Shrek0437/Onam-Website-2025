@@ -1,9 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: yellow;
+  @apply bg-gradient-to-br from-yellow-50 via-yellow-100 to-green-50 min-h-screen;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  color: #1a2e05;
+}
+
+/* Custom scrollbar for a modern look */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #f7fafc;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1fae5;
+  border-radius: 8px;
+}
+
+/* Headings with festive shadow */
+h1, h2, h3 {
+  text-shadow: 0 2px 8px rgba(255, 221, 51, 0.15);
+}
+
+/* Buttons: extra pop */
+.btn-onam {
+  @apply bg-gradient-to-r from-green-600 to-yellow-400 text-white font-bold px-6 py-2 rounded-full shadow-lg hover:from-green-700 hover:to-yellow-300 transition;
 }
