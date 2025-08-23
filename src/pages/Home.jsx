@@ -21,7 +21,7 @@ export default function Home() {
         <Link to="/" className="hover:text-gray-300 transition">HOME</Link>
         <Link to="/about" className="hover:text-gray-300 transition">ABOUT</Link>
         <Link to="/cart" className="hover:text-gray-300 transition">
-          <ShoppingCart size={22} />
+          <CiShoppingCartShoppingCart size={22} />
         </Link>
       </nav>
 
