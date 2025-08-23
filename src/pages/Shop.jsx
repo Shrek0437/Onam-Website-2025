@@ -1,5 +1,5 @@
 import React from "react";
-import products from "../products";
+import products from "src\product.jsx";
 
 export default function Shop() {
   return (
