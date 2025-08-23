@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  background: linear-gradient(135deg, #fefce8 0%, #fef9c3 50%, #d1fae5 100%);
   min-height: 100vh;
   font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
