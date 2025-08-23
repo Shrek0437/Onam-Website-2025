@@ -3,34 +3,25 @@ import React from "react";
 const products = [
   {
     id: 1,
-    name: "Jasmine Flower Bundle",
-    price: 30,
-    image: "/images/jasmine.jpg"
+    name: "Jasmine Bundle",
+    description: "Fresh jasmine flowers for Onam celebrations.",
+    price: 50,
+    image: "https://source.unsplash.com/300x200/?jasmine,flowers"
   },
   {
     id: 2,
-    name: "Banana Chips Packet",
-    price: 50,
-    image: "/images/chips.jpg"
+    name: "Kerala Snacks Box",
+    description: "Authentic banana chips and other traditional snacks.",
+    price: 150,
+    image: "https://source.unsplash.com/300x200/?snacks,kerala"
   },
   {
     id: 3,
-    name: "Mundu (Traditional Wear)",
-    price: 250,
-    image: "/images/mundu.jpg"
+    name: "Mundu",
+    description: "Traditional Kerala attire for men.",
+    price: 400,
+    image: "https://source.unsplash.com/300x200/?mundu,kerala"
   },
-  {
-    id: 4,
-    name: "Sharkara Upperi",
-    price: 60,
-    image: "/images/sharkara.jpg"
-  },
-  {
-    id: 5,
-    name: "Kasavu Set Mundu",
-    price: 300,
-    image: "/images/kasavu.jpg"
-  }
 ];
 
 export default products;
