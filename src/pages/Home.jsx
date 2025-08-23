@@ -17,11 +17,11 @@ export default function Home() {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col">
       {/* Navbar */}
-      <nav className="flex justify-end items-center gap-8 px-12 py-6 text-lg font-[Cinzel]">
-        <Link to="/" className="hover:text-gray-300 transition">HOME</Link>
-        <Link to="/about" className="hover:text-gray-300 transition">ABOUT</Link>
-        <Link to="/cart" className="hover:text-gray-300 transition">
-          <CiShoppingCartShoppingCart size={22} />
+      <nav className="flex justify-end items-center gap-8 px-12 py-6 text-lg font-cinzel">
+        <Link to="/" className="text-white hover:text-gray-300 transition">HOME</Link>
+        <Link to="/about" className="text-white hover:text-gray-300 transition">ABOUT</Link>
+        <Link to="/cart" className="text-white hover:text-gray-300 transition">
+          <CiShoppingCart size={22} />
         </Link>
       </nav>
 
@@ -32,7 +32,7 @@ export default function Home() {
           className="text-7xl md:text-8xl font-extrabold 
                      bg-gradient-to-b from-yellow-200 via-yellow-400 to-yellow-600 
                      text-transparent bg-clip-text tracking-wider 
-                     transition-opacity duration-700 ease-in-out font-[Oswald]"
+                     transition-opacity duration-700 ease-in-out font-oswald"
           key={index} // force fade transition
         >
           {logos[index]}
@@ -41,7 +41,7 @@ export default function Home() {
         {/* Shop Now */}
         <Link
           to="/shop"
-          className="mt-10 text-xl font-[Cinzel] tracking-wide hover:text-gray-300 transition"
+          className="mt-10 text-xl font-cinzel tracking-wide text-white hover:text-gray-300 transition"
         >
           SHOP NOW
         </Link>
