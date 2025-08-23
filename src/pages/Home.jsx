@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ShoppingCart } from "lucide-react"; // for cart icon
+import { CiShoppingCart } from "react-icons/ci"; // for cart icon
 import { Link } from "react-router-dom";
 
 export default function Home() {
